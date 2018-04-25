@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="okkpp.biz.dao.economics.IndicatorsOfNaMapper" >
+  <resultMap id="BaseResultMap" type="okkpp.biz.model.economics.IndicatorsOfNa" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="country" property="country" jdbcType="VARCHAR" />
+    <result column="year" property="year" jdbcType="VARCHAR" />
+    <result column="gdp" property="gdp" jdbcType="DOUBLE" />
+    <result column="gdppc" property="gdppc" jdbcType="DOUBLE" />
+    <result column="gni" property="gni" jdbcType="DOUBLE" />
+    <result column="gnipc" property="gnipc" jdbcType="DOUBLE" />
+    <result column="sort" property="sort" jdbcType="INTEGER" />
+    <result column="updated" property="updated" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    id, country, year, gdp, gdppc, gni, gnipc, sort, updated
+  </sql>
+</mapper>
